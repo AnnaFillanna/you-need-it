@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Оно тебе надо</title>
+  <title>You Need It</title>
   <link rel="stylesheet" href="./fonts/fonts.css">
   <link rel="stylesheet" href="./styles/global.css">
   <link rel="stylesheet" href="./styles/style.css">
@@ -13,17 +13,17 @@
   <header class="header">
     <div class="container">
       <div class="container-class-inner">
-        <nav class="header-menu" aria-label="Основное меню">
+        <nav class="header-menu" aria-label="Main navigation">
           <ul class="header-menu-list">
             <li class="header-menu-item header-menu-item-active">
-              <a class="header-menu-link header-menu-link-active" href="#">главная</a>
+              <a class="header-menu-link header-menu-link-active" href="#">home</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-link" href="#lots">посмотреть лоты</a>
+              <a class="header-menu-link" href="#lots">view lots</a>
             </li>
 
-<li class="header-menu-item">
-              <a class="header-menu-link" href="#about">об аукционе</a>
+            <li class="header-menu-item">
+              <a class="header-menu-link" href="#about">about the auction</a>
             </li>
           </ul>
         </nav>
@@ -32,14 +32,14 @@
           <img
             class="header-logo-image"
             src="./images/logo.png"
-            alt="Логотип Оно тебе надо">
-         </a>
+            alt="You Need It logo">
+        </a>
 
         <address class="contacts contacts-place-header">
           <a class="contacts-link" href="tel:+99995555555">+9&nbsp;999&nbsp;555&nbsp;5555</a>
           <a class="contacts-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <span class="contacts-text">наб. Принсенграхт 263–</span>
-          <span class="contacts-text">265, Амстердам</span>
+          <span class="contacts-text">Prinsengracht 263–</span>
+          <span class="contacts-text">265, Amsterdam</span>
         </address>
       </div>
     </div>
@@ -48,95 +48,104 @@
   <main>
     <section class="cover">
       <div class="container">
-       <div class="overlay"></div>
+        <div class="overlay"></div>
 
         <div class="cover-frame">
           <h1 class="cover-title">
-            <span class="cover-word cover-word-left">ОНО</span>
-            <span class="cover-word cover-word-center">ТЕБЕ</span>
-            <span class="cover-word cover-word-right">НАДО</span>
+            <span class="cover-word cover-word-left">YOU</span>
+            <span class="cover-word cover-word-center">NEED</span>
+            <span class="cover-word cover-word-right">IT</span>
           </h1>
         </div>
 
         <div class="cover-description">
-          <p class="cover-subtitle">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</p>
+          <p class="cover-subtitle">AN AUCTION OF THINGS NO ONE BELIEVED IN</p>
           <div class="cover-button-wrapper">
-            <a class="button" href="#">СДЕЛАТЬ СТАВКУ</a>
+            <a class="button" href="#">PLACE A BID</a>
           </div>
         </div>
       </div>
     </section>
 
     <section class="lots" id="lots">
-      <h2 class="lots-title">ЛОТЫ</h2>
+      <h2 class="lots-title">LOTS</h2>
 
       <ul class="lots-list">
         <li class="lots-item">
           <a class="card-link" href="#">
-          <article class="card card-type-film">
-           <div class="overlay"></div>
-            <h3 class="card-title">Фильм режиссёра, который бросил киношколу</h3>
-            <p class="card-text">
-              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
-              если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-            </p>
-          </article>
-        </a>
+            <article class="card card-type-film">
+              <div class="overlay"></div>
+              <h3 class="card-title">A film by a director who dropped out of film school</h3>
+              <p class="card-text">
+                He didn't just drop out — he left after the very first lecture. How much would you bid
+                if you didn't know that the director was Paul Thomas Anderson?
+              </p>
+            </article>
+          </a>
         </li>
 
         <li class="lots-item">
-           <a class="card-link" href="#">
-          <article class="card card-type-book">
-            <div class="overlay"></div>
-            <h3 class="card-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-            <p class="card-text">
-              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами
-              на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года
-              и об истории литературы, начиная с античных времён. И это всё накладывается
-              на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
-            </p>
-          </article>
-           </a>
+          <a class="card-link" href="#">
+            <article class="card card-type-book">
+              <div class="overlay"></div>
+              <h3 class="card-title">
+                A book about one ordinary day in the life of an advertising agent
+              </h3>
+              <p class="card-text">
+                Nearly a thousand pages long. Sometimes without punctuation and with passages
+                in Old English. It tells the story of June 16, 1904 while also exploring the
+                history of literature from ancient times. And all of it is layered onto Homer's
+                epic poem. How much would you bid on James Joyce's “Ulysses”?
+              </p>
+            </article>
+          </a>
         </li>
 
         <li class="lots-item">
-           <a class="card-link" href="#">
-          <article class="card card-type-picture">
-            <div class="overlay"></div>
-            <h3 class="card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-            <p class="card-text">
-              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее
-              на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое
-              поставили, если бы не знали, что это — одна из революционных работ Кандинского?
-            </p>
-          </article>
-           </a>
+          <a class="card-link" href="#">
+            <article class="card card-type-picture">
+              <div class="overlay"></div>
+              <h3 class="card-title">
+                A painting that even a five-year-old could recreate
+              </h3>
+              <p class="card-text">
+                Really, there's a line here, a circle there, and something that looks almost like
+                a tiny microorganism. No fields, forests, or cute cats... How much would you bid
+                if you didn't know this was one of Kandinsky's revolutionary works?
+              </p>
+            </article>
+          </a>
         </li>
       </ul>
-    <a href="#" class="lots-more">посмотреть больше</a>
+
+      <a href="#" class="lots-more">view more</a>
     </section>
 
     <section class="about" id="about">
       <a class="about-logo" href="#">
-        <img class="about-logo-image" src="./images/logo-column.png" alt="Логотип">
+        <img
+          class="about-logo-image"
+          src="./images/logo-column.png"
+          alt="Auction logo">
       </a>
 
       <div class="about-content">
-        <h2 class="about-title">ОБ АУКЦИОНЕ</h2>
+        <h2 class="about-title">ABOUT THE AUCTION</h2>
+
         <div class="about-text-wrapper">
           <p class="about-text">
-            Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
-            Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен
-            дневник девочки-подростка или картина, которую может нарисовать даже ребёнок?
-            Кому нужны все эти странные вещи, созданные любителями?
+            You won't find another pretentious collection of incredibly expensive antiques here.
+            Our lots were never supposed to end up at an auction at all. After all, who needs
+            a teenage girl's diary or a painting that even a child could draw?
+            Who needs all these strange things created by amateurs?
           </p>
 
           <p class="about-text about-text-offset">
-            Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах
-            растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными.
-            Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно
-            представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели.
-            И сейчас эти лоты стали культовыми.
+            Too complicated or, on the contrary, too simple. Ahead of their time.
+            Torn apart by critics. Rejected and misunderstood. Once, they seemed like failures.
+            But despite criticism, apparent simplicity, or complexity, today it is impossible
+            to imagine modern culture without these works. When no one believed in them,
+            their creators kept believing. And now these lots have become iconic.
           </p>
         </div>
       </div>
@@ -144,34 +153,52 @@
   </main>
 
   <footer class="footer">
-     <address class="contacts contacts-place-footer">
-   <a class="contacts-link" href="tel:+99995555555">+9&nbsp;999&nbsp;555&nbsp;5555</a>
-          <a class="contacts-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <span class="contacts-text">наб. Принсенграхт 263–265,</span>
-          <span class="contacts-text">Амстердам</span>
+    <address class="contacts contacts-place-footer">
+      <a class="contacts-link" href="tel:+99995555555">+9&nbsp;999&nbsp;555&nbsp;5555</a>
+      <a class="contacts-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <span class="contacts-text">Prinsengracht 263–265,</span>
+      <span class="contacts-text">Amsterdam</span>
     </address>
 
-    <nav class="footer-menu" aria-label="Нави в подвале">
+    <nav class="footer-menu" aria-label="Footer navigation">
       <ul>
-        <li><a class="footer-menu-link footer-menu-link-active" href="#">главная</a></li>
-        <li><a class="footer-menu-link" href="#lots">посмотреть лоты</a></li>
-        <li><a class="footer-menu-link" href="#about">об аукционе</a></li>
+        <li>
+          <a class="footer-menu-link footer-menu-link-active" href="#">home</a>
+        </li>
+        <li>
+          <a class="footer-menu-link" href="#lots">view lots</a>
+        </li>
+        <li>
+          <a class="footer-menu-link" href="#about">about the auction</a>
+        </li>
       </ul>
     </nav>
 
     <div class="footer-socials">
-  <a class="footer-socials-link" href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-    <img class="footer-social-icon" src="./images/youtube.png" alt="YouTube">
-  </a>
+      <a
+        class="footer-socials-link"
+        href="https://youtube.com"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img class="footer-social-icon" src="./images/youtube.png" alt="YouTube">
+      </a>
 
-  <a class="footer-socials-link" href="https://vk.com" target="_blank" rel="noopener noreferrer">
-    <img class="footer-social-icon vk-icon" src="./images/vk.png" alt="VK">
-  </a>
+      <a
+        class="footer-socials-link"
+        href="https://vk.com"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img class="footer-social-icon vk-icon" src="./images/vk.png" alt="VK">
+      </a>
 
-  <a class="footer-socials-link" href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
-    <img class="footer-social-icon pinterest-icon" src="./images/pinterest.png" alt="Pinterest">
-  </a>
-</div>
+      <a
+        class="footer-socials-link"
+        href="https://pinterest.com"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img class="footer-social-icon pinterest-icon" src="./images/pinterest.png" alt="Pinterest">
+      </a>
+    </div>
   </footer>
 </body>
 </html>
