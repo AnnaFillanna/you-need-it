@@ -1,23 +1,22 @@
 # You Need It
 
-A responsive landing page for an unusual auction featuring works that were once underestimated but later became iconic.
+A static landing page for an unusual auction featuring works that were once underestimated but later became iconic.
+
+This was one of my first web development projects, focused on building a page from a design using HTML and CSS.
 
 ## Technologies
 
 - HTML5
 - CSS3
 - Flexbox
-- CSS Grid
-- Responsive Design
 - Semantic HTML
 
 ## Features
 
-- Responsive layout
 - Auction lot cards
 - Navigation between page sections
 - Image overlays
-- Accessible semantic markup
+- Semantic page structure
 
 ## Live Demo
 
